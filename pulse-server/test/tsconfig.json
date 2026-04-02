@@ -2,12 +2,9 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "noEmit": true,
-     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "target": "ES2023",
-    "strict": true,
-    "esModuleInterop": true,
+    "noEmit": true
   },
   "include": ["../src/**/*.ts", "**/*.ts"]
 }
+
+
